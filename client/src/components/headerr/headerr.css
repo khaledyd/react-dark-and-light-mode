@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.headerimg{
+    display: flex;
+width: 331px;
+height: 244px;
+margin-left: 951px;
+margin-top: -250px;
+margin-bottom: 0px;
+}
+#dark .headerimg{
+    background-color: #242424;
+}

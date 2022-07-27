@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.login-items {
+    margin-top: 100px;
+    display: flex;
+    margin-left: 314px;
+}
+
+.login-title {
+
+    width: 123px;
+    height: 38px;
+    top: 231px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -120px;
+
+}
+
+.input-lg {
+    width: 289px;
+    height: 32px;
+    left: 315px;
+    top: 295px;
+    padding-left: 10px;
+
+    background: #FFFFFF;
+    border: 1px solid #1F4690;
+    border-radius: 10px;
+}
+
+.email {
+
+    width: 46px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #1F4690;
+}
+
+.password {
+
+    width: 46px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #1F4690;
+}
+
+.login-btn {
+    margin-top: 20px;
+    margin-left: 314px;
+    width: 111px;
+    height: 37px;
+    left: 315px;
+    top: 396px;
+
+    background: #1F4690;
+    border-radius: 10px;
+
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-lg {
+    display: flex;
+}
+
+.forget {
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 128px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #1F4690;
+}
+
+#dark {
+    background-color: #242424;
+}
+
+#dark .login-title {
+    color: #FFFFFF;
+}
+
+#dark .email {
+    color: #FFFFFF;
+}
+
+#dark .password {
+    color: #FFFFFF;
+}
+
+#dark .login-btn {
+    color: #1F4690;
+    background-color: #FFFFFF;
+    
+}
+#dark .forget{
+    color: #FFFFFF;
+}
